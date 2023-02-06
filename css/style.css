@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:#d0d0d0;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+    Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.8;
+    letter-spacing: 1px;
+    width: 90%;
+    margin:auto;
+    background-color: #36454f;
+}
+
+.header-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.item-2 {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.item-1 img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    padding-right: 25px;
+    color: #d0d0d0;
+    font-weight: bold;
+}
+
+.image-container {
+    margin: 15px 3px 2px 3px;
+}
+
+.embed-container {
+    padding: 80px;
+}
+
+.bio-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+    color: #d0d0d0;
+}
+
+.bio-container h1 {
+    font-size: 40px;
+    line-height: 1.2;
+   color: #d0d0d0;
+}
+
+.bio-image img {
+    width: 50%;
+    height:auto;
+}
+
+.hire-me {
+    display: flex;
+    margin: 50px;
+}
+
+.link-h {
+    margin-left: 45px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: .25em;
+    text-decoration: none;
+}
+
+.h-active {
+    background-color: gold;
+    color:#fff;
+}
+
+.h-projects {
+    border: 1.5px solid #fff;
+    color:#d0d0d0;
+}
+
+.projects {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.projects h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #d0d0d0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    width: 100%;
+    margin: 50px auto;
+    gap: 40px;
+}
+
+.projects-grid a {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: 2px;
+}
+
+.projects-image:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+.projects-grid p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #36454f;
+}
+
+h3 {
+    color: gold;
+}
+
+.user-address {
+    color:#d0d0d0;
+}
